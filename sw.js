@@ -3,11 +3,11 @@ self.addEventListener('install', function(event) {
     caches.open('first-app')
       .then(function(cache) {
         cache.addAll([
-          '/latihanmobweb/',
-          '/latihanmobweb/index.html',
-          '/latihanmobweb/src/css/app.css',
-          '/latihanmobweb/src/js/app.js',
-          '/latihanmobweb/offline.html'
+          '/',
+          '/index.html',
+          '/src/css/app.css',
+          '/src/js/app.js',
+          '/offline.html'
         ])
       })
   );
@@ -43,7 +43,7 @@ self.addEventListener('fetch', function(event) {
             .catch(function(err) {
               return caches.open('first-app')
                 .then(function(cache) {
-                  return cache.match('latihanmobweb/offline.html');
+                  return cache.match('/offline.html');
                 });
             });
         }

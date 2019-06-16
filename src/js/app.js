@@ -1,6 +1,6 @@
 var button = document.querySelector('button');
 
-navigator.serviceWorker.register('/latihanmobweb/sw.js');
+navigator.serviceWorker.register('/sw.js');
 
 function hitung(){
   var awal = document.getElementById('awal').selectedIndex;

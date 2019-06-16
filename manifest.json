@@ -3,17 +3,17 @@
   "short_name": "CobaPWA",
   "icons": [
     {
-      "src": "/latihanmobweb/152.png",
+      "src": "/152.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/latihanmobweb/192.png",
+      "src": "/192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
   ],
-  "start_url": "/latihanmobweb/index.html",
+  "start_url": "/index.html",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
