@@ -1,0 +1,25 @@
+{
+  "name": "Instagram as Progressive Web App",
+  "short_name": "CobaPWA",
+  "icons": [
+    {
+      "src": "/latihanmobweb/152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/latihanmobweb/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+  ],
+  "start_url": "/latihanmobweb/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#3f51b5",
+  "description": "A simple Instagram Clone, implementing a lot of PWA love.",
+  "dir": "ltr",
+  "lang": "en-US"
+}
